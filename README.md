@@ -17,3 +17,12 @@
 5. 移动选中文件去某个文件夹
 
 
+
+
+
+# Installation
+
+打开finder，按command + shift + G，输入~/Library/Services
+
+就可以进入“服务”文件夹，接下来把这些workflow拖进去就好
+
