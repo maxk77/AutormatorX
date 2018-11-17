@@ -13,7 +13,7 @@
 2. 修复文件名unicode乱码
 3. 快速转换PPT -> PDF
 4. 快速转换Word -> PDF
-5. 移动选中文件去某个文件夹（Original）
+5. 移动选中文件去某个文件夹（和Linux “Copy to”功能一样）（Original）
 
 
 
