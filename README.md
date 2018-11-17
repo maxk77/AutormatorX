@@ -1,8 +1,7 @@
 # AutomatorX
 使用Mac的automator和AppleScript提高生产力
 
-这里包含了我现在常用的一些workflow，除了标记“原创”以外均来自网络，感谢各种愿意编写workflow并有分享精神的coder
-
+这里包含了我现在常用的一些workflow，除了标记“原创”以外均来自网络，感谢愿意编写workflow并具有分享精神的programmers
 
 
 
