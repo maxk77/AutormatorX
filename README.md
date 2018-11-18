@@ -13,8 +13,14 @@
 2. 修复文件名unicode乱码
 3. 快速转换PPT -> PDF
 4. 快速转换Word -> PDF
+<<<<<<< HEAD
 5. 移动选中文件去某个文件夹（和Linux “Copy to”功能一样）（Original）
 6. 把png图像一键转换成icns格式（Original）
+||||||| merged common ancestors
+5. 移动选中文件去某个文件夹
+=======
+5. 移动选中文件去某个文件夹（和Linux “Copy to”功能一样）（Original）
+>>>>>>> fdef29a35fb3e18f37ff0e4b6bbfac73c722003d
 
 
 
@@ -25,4 +31,10 @@
 打开finder，按command + shift + G，输入~/Library/Services
 
 就可以进入“服务”文件夹，接下来把这些workflow拖进去就好
+<<<<<<< HEAD
 ![image](https://github.com/max-yeah/AutormatorX/blob/master/image/folder.png)
+||||||| merged common ancestors
+
+=======
+![image](https://github.com/max-yeah/AutormatorX/blob/master/image/folder.png)
+>>>>>>> fdef29a35fb3e18f37ff0e4b6bbfac73c722003d
