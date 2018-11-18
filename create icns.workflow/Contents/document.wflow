@@ -110,7 +110,7 @@ rm -R ~/Downloads/MyIcon.iconset
 				<key>OutputUUID</key>
 				<string>3D86D172-CD29-4D1C-9A0C-60D4E934DF7E</string>
 				<key>ShowWhenRun</key>
-				<true/>
+				<false/>
 				<key>UUID</key>
 				<string>29D2042B-0B6C-4777-8BEC-A84A2329A6CC</string>
 				<key>UnlocalizedApplications</key>
@@ -188,7 +188,7 @@ rm -R ~/Downloads/MyIcon.iconset
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:253.000000</string>
+				<string>309.000000:305.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
