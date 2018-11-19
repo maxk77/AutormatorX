@@ -10,11 +10,18 @@
 <u>包括了以下workflow：</u>
 
 1. 批量修改文件名
+
 2. 修复文件名unicode乱码
+
 3. 快速转换PPT -> PDF
+
 4. 快速转换Word -> PDF
+
 5. 移动选中文件去某个文件夹（和Linux “Copy to”功能一样）（Original）
-6. 把png图像一键转换成icns格式（Original，借鉴了stackoverflow答主代码：https://stackoverflow.com/questions/12306223/how-to-manually-create-icns-files-using-iconutil/20703594#20703594）
+
+6. 把png图像一键转换成icns格式（Original，借鉴了stackoverflow答主代码）
+
+  https://stackoverflow.com/questions/12306223/how-to-manually-create-icns-files-using-iconutil/20703594#20703594
 
 
 
