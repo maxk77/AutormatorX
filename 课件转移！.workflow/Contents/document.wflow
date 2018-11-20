@@ -198,6 +198,108 @@
 					<true/>
 					<key>Types</key>
 					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run AppleScript.action</string>
+				<key>ActionName</key>
+				<string>Run AppleScript</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>source</key>
+					<string>on run {input, parameters}		tell me to activate		return inputend run</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.RunScript</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunScriptAction</string>
+				<key>InputUUID</key>
+				<string>6BE3F8B7-86CD-42D6-BC6B-6E30EDBE7ECE</string>
+				<key>Keywords</key>
+				<array>
+					<string>Run</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>0741D370-050B-441C-BD17-B7E329545D12</string>
+				<key>UUID</key>
+				<string>F4AE3B31-DEF6-412D-B479-4AB43E87F54A</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>on run {input, parameters}
+	
+	(* Your script goes here *)
+	
+	return input
+end run</string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>309.000000:488.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
 						<string>com.apple.cocoa.path</string>
 					</array>
 				</dict>
@@ -344,7 +446,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:398.000000</string>
+				<string>309.000000:644.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -452,7 +554,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:504.000000</string>
+				<string>309.000000:750.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -500,7 +602,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>on run {input, parameters}	set a to item 1 of input	set b to item 2 of input	set c to item 3 of input	#display notification "" with title f	tell application "Finder"		move a to c	end tell	end run</string>
+					<string>on run {input, parameters}	set a to item 1 of input	set b to item 2 of input	set c to item 3 of input	#display notification "" with title i	tell application "Finder"		move a to c with replacing	end tell	return inputend run</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
@@ -554,7 +656,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:750.000000</string>
+				<string>309.000000:996.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -564,33 +666,40 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>6972A700-179A-4FFB-AC50-A3273520D769</key>
+		<key>243286C0-C3AD-4A09-A11B-2E6296FA68C7</key>
 		<dict>
 			<key>from</key>
-			<string>5D9A582F-AF50-41C7-B77C-828EC208A686 - 5D9A582F-AF50-41C7-B77C-828EC208A686</string>
+			<string>F4AE3B31-DEF6-412D-B479-4AB43E87F54A - F4AE3B31-DEF6-412D-B479-4AB43E87F54A</string>
 			<key>to</key>
-			<string>AE8F742E-B800-4742-81CE-281C898E3308 - AE8F742E-B800-4742-81CE-281C898E3308</string>
+			<string>72F18775-DC72-45AC-A066-20E816A1D553 - 72F18775-DC72-45AC-A066-20E816A1D553</string>
 		</dict>
-		<key>7E5E50CE-3D03-4512-9D0B-A76635A76EF3</key>
+		<key>33DC0F00-EFF8-4720-9F6A-EDD0FC48214A</key>
 		<dict>
 			<key>from</key>
 			<string>72F18775-DC72-45AC-A066-20E816A1D553 - 72F18775-DC72-45AC-A066-20E816A1D553</string>
 			<key>to</key>
 			<string>DBAA34C0-7326-4CAE-B69F-8C46FA121FAA - DBAA34C0-7326-4CAE-B69F-8C46FA121FAA</string>
 		</dict>
-		<key>C1D2D66D-849C-4BBC-99E8-C8781C97E81B</key>
+		<key>8D4ACBA5-4576-4754-AEC1-9CC3212EA693</key>
 		<dict>
 			<key>from</key>
 			<string>DBAA34C0-7326-4CAE-B69F-8C46FA121FAA - DBAA34C0-7326-4CAE-B69F-8C46FA121FAA</string>
 			<key>to</key>
 			<string>90559861-C2F1-4838-821C-CD2345D9001A - 90559861-C2F1-4838-821C-CD2345D9001A</string>
 		</dict>
-		<key>DF9333AF-D8B4-4E6C-BE04-323E53C009EB</key>
+		<key>CC2FFD35-D866-429E-BFAE-97A6C951C440</key>
+		<dict>
+			<key>from</key>
+			<string>5D9A582F-AF50-41C7-B77C-828EC208A686 - 5D9A582F-AF50-41C7-B77C-828EC208A686</string>
+			<key>to</key>
+			<string>AE8F742E-B800-4742-81CE-281C898E3308 - AE8F742E-B800-4742-81CE-281C898E3308</string>
+		</dict>
+		<key>F73DEB46-267E-4981-9759-695C261A3EE6</key>
 		<dict>
 			<key>from</key>
 			<string>AE8F742E-B800-4742-81CE-281C898E3308 - AE8F742E-B800-4742-81CE-281C898E3308</string>
 			<key>to</key>
-			<string>72F18775-DC72-45AC-A066-20E816A1D553 - 72F18775-DC72-45AC-A066-20E816A1D553</string>
+			<string>F4AE3B31-DEF6-412D-B479-4AB43E87F54A - F4AE3B31-DEF6-412D-B479-4AB43E87F54A</string>
 		</dict>
 	</dict>
 	<key>variables</key>
