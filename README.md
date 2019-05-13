@@ -23,12 +23,11 @@
 
 7. Retrieve. (Original)
 
-   Will retrieve all files in folder A to upper level folder, and remove folder A
+   Will retrieve all files in a folder to upper level, and remove that folder.
 
-   I mainly use it when I download some TV series and want to retrieve them into download folder.
+   I mainly use it when I download TV series and want to retrieve them from original folder.
 
-   
-
+   ![image](https://github.com/max-yeah/AutormatorX/blob/master/image/retrieve.gif)
    
 
    <br>
