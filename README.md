@@ -26,6 +26,10 @@
 
 # Installation
 
+双击workflow文件安装，嫌麻烦的也可以：
+
+<br>
+
 打开finder，按command + shift + G，输入~/Library/Services
 
 就可以进入“服务”文件夹，接下来把这些workflow拖进去就好
