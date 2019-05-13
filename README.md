@@ -21,7 +21,17 @@
 
 6. 把png图像一键转换成icns格式（Original），借鉴了stackoverflow答主代码：https://stackoverflow.com/questions/12306223/how-to-manually-create-icns-files-using-iconutil/20703594#20703594
 
+7. Retrieve. (Original)
 
+   Will retrieve all files in folder A to upper level folder, and remove folder A
+
+   I mainly use it when I download some TV series and want to retrieve them into download folder.
+
+   
+
+   
+
+   <br>
 
 
 # Installation
