@@ -13,7 +13,7 @@
 
    Here is an real use case of me showing workflow 1, 5, and 7.
 
-   ![image](https://github.com/max-yeah/AutormatorX/blob/master/image/combo.gif)
+   ![image](https://github.com/max-yeah/AutormatorX/blob/master/image/cut.gif)
 
 <br>
 
@@ -30,8 +30,9 @@
 
    ![image](https://github.com/max-yeah/AutormatorX/blob/master/image/copy.gif)
    
+
 <br>
-   
+
 
 6. 把png图像一键转换成icns格式（Original），借鉴了stackoverflow答主代码：https://stackoverflow.com/questions/12306223/how-to-manually-create-icns-files-using-iconutil/20703594#20703594
 <br>
