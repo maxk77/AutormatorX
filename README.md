@@ -11,7 +11,9 @@
 
 1. 批量修改文件名
 
-   Here is an real use case of me showing workflow 1, 5, and 7.
+   Here is a real use case for me. 
+   
+   P.S. I suggest you set a shortcut for it.
 
    ![image](https://github.com/max-yeah/AutormatorX/blob/master/image/cut.gif)
 
@@ -30,6 +32,9 @@
 
    ![image](https://github.com/max-yeah/AutormatorX/blob/master/image/copy.gif)
    
+   可以设置打开时默认位置，我设置在了课程文件夹，编辑方式：用automator打开workflow，可以看到folder position
+   
+   建议配合快捷键使用。
 
 <br>
 
