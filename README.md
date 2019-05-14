@@ -11,15 +11,30 @@
 
 1. 批量修改文件名
 
+   Here is an real use case of me showing workflow 1, 5, and 7.
+
+   ![image](https://github.com/max-yeah/AutormatorX/blob/master/image/combo.gif)
+
+<br>
+
 2. 修复文件名unicode乱码
+<br>
 
 3. 自动批量转换PPT -> PDF
+<br>
 
 4. 自动批量转换Word -> PDF
+<br>
 
 5. 移动选中file(s)去某个文件夹（和Linux “Copy to”功能一样）（Original）
 
+   ![image](https://github.com/max-yeah/AutormatorX/blob/master/image/copy.gif)
+   
+<br>
+   
+
 6. 把png图像一键转换成icns格式（Original），借鉴了stackoverflow答主代码：https://stackoverflow.com/questions/12306223/how-to-manually-create-icns-files-using-iconutil/20703594#20703594
+<br>
 
 7. Retrieve. (Original)
 
