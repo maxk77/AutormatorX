@@ -50,6 +50,11 @@
 
    ![image](https://github.com/max-yeah/AutormatorX/blob/master/image/retrieve.gif)
    
+<br>
+   
+8. SHA Checksum. (Original)
+
+   Handy workflow for me to verify the checksum of a download file. Support SHA-1, SHA-256, and SHA-512 algorithm.
 
    <br>
 
