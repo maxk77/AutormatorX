@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>444.42</string>
+	<string>492</string>
 	<key>AMApplicationVersion</key>
-	<string>2.9</string>
+	<string>2.10</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -68,7 +68,7 @@ rm -rf "$@"</string>
 					<key>inputMethod</key>
 					<integer>1</integer>
 					<key>shell</key>
-					<string>/bin/bash</string>
+					<string>/bin/zsh</string>
 					<key>source</key>
 					<string></string>
 				</dict>
@@ -122,9 +122,9 @@ rm -rf "$@"</string>
 					<key>1</key>
 					<dict>
 						<key>default value</key>
-						<string></string>
+						<false/>
 						<key>name</key>
-						<string>source</string>
+						<string>CheckedForUserDefaultShell</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -135,9 +135,9 @@ rm -rf "$@"</string>
 					<key>2</key>
 					<dict>
 						<key>default value</key>
-						<false/>
+						<string></string>
 						<key>name</key>
-						<string>CheckedForUserDefaultShell</string>
+						<string>source</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -172,12 +172,10 @@ rm -rf "$@"</string>
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>279.000000:305.000000</string>
+				<string>309.000000:305.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
