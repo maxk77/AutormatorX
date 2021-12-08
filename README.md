@@ -1,7 +1,7 @@
 # AutomatorX
-使用Mac的Automator和AppleScript提高生产力
+Use the crazy Automator and AppleScript to improve efficiency on Mac.
 
-这里包含了我现在常用的一些workflow，除了标记“原创”以外均来自网络，感谢愿意编写workflow并具有分享精神的programmers
+Here are some of the workflows I frequently used. Except for the ones market as "Original", others are from some blogs or forum posts.
 
 
 
@@ -9,7 +9,7 @@
 
 <u>包括了以下workflow：</u>
 
-1. 批量修改文件名
+1. 批量修改文件名/Rename filename in batches
 
    Here is a real use case for me. 
    
@@ -19,27 +19,27 @@
 
 <br>
 
-2. 修复文件名unicode乱码
+2. Fix wrong unicode character
 <br>
 
-3. 自动批量转换PPT -> PDF
+3. Automatically export PPT -> PDF (Need MS PPT)
 <br>
 
-4. 自动批量转换Word -> PDF
+4. Automatically export Words -> PDF (Need MS Words)
 <br>
 
-5. 移动选中file(s)去某个文件夹（和Linux “Copy to”功能一样）（Original）
+5. “Move to”（Original）
 
    ![image](https://github.com/max-yeah/AutormatorX/blob/master/image/copy.gif)
    
-   可以设置打开时默认位置，我设置在了课程文件夹，编辑方式：用automator打开workflow，可以看到folder position
+   You can change the default location by opening this workflow with Automator
    
-   建议配合快捷键使用。
+   I'm using this with shortcut cmd+ctl+m. It is actually more useful than I originally assume.
 
 <br>
 
 
-6. 把png图像一键转换成icns格式（Original），借鉴了stackoverflow答主代码：https://stackoverflow.com/questions/12306223/how-to-manually-create-icns-files-using-iconutil/20703594#20703594
+6. Transform .png image to .icns icon for Mac apps（Original），借鉴了stackoverflow答主代码：https://stackoverflow.com/questions/12306223/how-to-manually-create-icns-files-using-iconutil/20703594#20703594
 <br>
 
 7. Retrieve. (Original)
@@ -54,18 +54,18 @@
    
 8. SHA Checksum. (Original)
 
-   Handy workflow for me to verify the checksum of a download file. Support SHA-1, SHA-256, and SHA-512 algorithm.
+   Handy workflow for me to verify the checksum of a downloaded file. Support SHA-1, SHA-256, and SHA-512 algorithm.
 
    <br>
 
 
 # Installation
 
-双击workflow文件安装，嫌麻烦的也可以：
+Double click the workflow to install
 
 <br>
 
-打开finder，按command + shift + G，输入~/Library/Services
+Open Finder，Press command + shift + G，Enter ~/Library/Services
 
-就可以进入“服务”文件夹，接下来把这些workflow拖进去就好
+Draw the workflows to it
 ![image](https://github.com/max-yeah/AutormatorX/blob/master/image/folder.png)
