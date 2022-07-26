@@ -63,7 +63,7 @@ Here are some of the workflows I frequently used. Except for the ones market as 
 
    On macOS when handling chinese file from windows, the characters could be in wrong encoding. This workflow can transfer gbk format --> utf8
 
-   ![image](https://github.com/max-yeah/AutormatorX/blob/master/image/https://github.com/max-yeah/AutormatorX/blob/master/image/chinese_encode.gif)
+   ![image](https://github.com/max-yeah/AutormatorX/blob/master/image/chinese_encode.gif)
 
 
 # Installation
