@@ -19,7 +19,7 @@
 
 <br>
 
-2. 修复文件名unicode乱码
+2. URL decode
 <br>
 
 3. 自动批量转换PPT -> PDF
@@ -50,13 +50,20 @@
 
    ![image](https://github.com/max-yeah/AutormatorX/blob/master/image/retrieve.gif)
    
+
 <br>
-   
+
 8. SHA Checksum. (Original)
 
    Handy workflow for me to verify the checksum of a download file. Support SHA-1, SHA-256, and SHA-512 algorithm.
 
    <br>
+
+9. Fix Chinese wrong Encoding (Original)
+
+   On macOS when handling chinese file from windows, the characters could be in wrong encoding. This workflow can transfer gbk format --> utf8
+
+   ![image](https://github.com/max-yeah/AutormatorX/blob/master/image/https://github.com/max-yeah/AutormatorX/blob/master/image/chinese_encode.gif)
 
 
 # Installation
